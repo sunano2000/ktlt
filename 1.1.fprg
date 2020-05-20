@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-03-25 09:21:32 PM"/>
+        <attribute name="created" value="VXNlcjtQQzIwMTkxMTI0MTBIUFM7MjAyMC0wMy0yNTswOTowNzozMiBQTTsyNTc3"/>
+        <attribute name="edited" value="VXNlcjtQQzIwMTkxMTI0MTBIUFM7MjAyMC0wMy0yNTswOToyMTozMiBQTTsxOzI2ODE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="radius" type="Integer" array="False" size=""/>
+            <output expression="&quot;please enter the radius of the circle&quot;" newline="True"/>
+            <input variable="radius"/>
+            <assign variable="area" expression="3.14*radius^2"/>
+            <output expression="&quot;the area is&quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
